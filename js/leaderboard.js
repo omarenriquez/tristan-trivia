@@ -1,14 +1,4 @@
 
-// https://docs.google.com/spreadsheets/d/1Q3MQCmvY8W1rD2621TwZ_yZWIetTKfcT9Qp_xLyil5M/edit?usp=sharing
-// Client Secret: 1p7r-ygSmVtZg6-LnUg3QTMt
-// API Key: AIzaSyCRalemSzGApEH_jacbcWfNLLRTIVw8g4E
-// CLIENT ID: 1096823005728-io71qpv3ka0fov3rs26efp9gv01u7m54.apps.googleusercontent.com
-// Range: 'Sheet1!A2:C9'
-// SpreadsheetID: 1Q3MQCmvY8W1rD2621TwZ_yZWIetTKfcT9Qp_xLyil5M
-// Published spreadsheet: https://docs.google.com/spreadsheets/d/e/2PACX-1vSkBG8oF6Jw56MruuLe-lQslOBDK-kE44IVuSH5NZvObs2nBNQnk8cGAk4TSZcrt1xViuELKJUo0Ai1/pub?gid=0&single=true&output=csv
-
-
-
 var spreadsheetUrl = 'https://spreadsheets.google.com/feeds/cells/1Q3MQCmvY8W1rD2621TwZ_yZWIetTKfcT9Qp_xLyil5M/1/public/values?alt=json-in-script&callback=doData';
 
 
