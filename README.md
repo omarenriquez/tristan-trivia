@@ -1,2 +1,1 @@
-# tristan-trivia
-Tristan Trivia
+TinDog Starting Files

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Trivia Leaderboard</title>
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
+	<!-- Personal CSS Styles for site -->
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<!-- Fontawesome Icons CDN-->
+	<script SameSite="None" src="https://use.fontawesome.com/db5a170250.js"></script>
+	
+	<!-- Google fonts API CDN -->
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Red+Hat+Text&display=swap" rel="stylesheet">
+
+	<!-- Fontawesome Icons CDN-->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	 
+ 
+</head>
+
+<body>
+	
+	<section class="card">
+		<!-- TITLE -->
+		<div class="title">
+			<p class="title1">LEADERBOARD</p>
+			<p class="title2">Tristan Trivia</p>
+		</div>
+		<hr>
+		
+		<div class="row align-items-center host-info" >
+			<div class="col-md-3">
+				<img class="host-pic" id="host-pic" src="https://media-exp1.licdn.com/dms/image/C4E03AQFO34jWQPPhKg/profile-displayphoto-shrink_200_200/0?e=1602720000&v=beta&t=wLTG036l7kO0EsKDt9acofl4JzR84VFczBqDGulns9Q" alt="pic">
+			</div>
+			<div class="col-md-9">
+				<p class="host-name">Host / Scorekeeper: Tristan Kuna</p>
+			</div>
+		</div>
+		
+		
+		<!-- Standings -->
+
+		<div class="row align-items-center rank rank-first" >
+			<div class="col-md-2">
+				<p class="standing">1</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-1" src="images\dog-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-4">
+				<p id="rank-name-1"></p>
+			</div>
+			<div class="col-md-1">
+				<i class="fas fa-trophy"></i>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-1"></p>
+			</div>
+		</div>
+
+		<div class="row align-items-center rank rank-even" >
+			<div class="col-md-2">
+				<p class="standing">2</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-2" src="images\lady-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-5">
+				<p id="rank-name-2"></p>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-2"></p>
+			</div>
+		</div>
+		
+				<div class="row align-items-center rank rank-odd" >
+			<div class="col-md-2">
+				<p class="standing">3</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-3" src="images\lady-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-5">
+				<p id="rank-name-3"></p>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-3"></p>
+			</div>
+		</div>
+
+		<div class="row align-items-center rank rank-even" >
+			<div class="col-md-2">
+				<p class="standing">4</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-4" src="images\lady-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-5">
+				<p id="rank-name-4"></p>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-4"></p>
+			</div>
+		</div>
+		
+				<div class="row align-items-center rank rank-odd" >
+			<div class="col-md-2">
+				<p class="standing">5</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-5" src="images\lady-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-5">
+				<p id="rank-name-5"></p>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-5"></p>
+			</div>
+		</div>
+
+		<div class="row align-items-center rank rank-even" >
+			<div class="col-md-2">
+				<p class="standing">6</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-6" src="images\lady-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-5">
+				<p id="rank-name-6"></p>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-6"></p>
+			</div>
+		</div>
+		
+		<div class="row align-items-center rank rank-odd" >
+			<div class="col-md-2">
+				<p class="standing">7</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-7" src="images\lady-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-5">
+				<p id="rank-name-7"></p>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-7"></p>
+			</div>
+		</div>
+
+		<div class="row align-items-center rank rank-even" >
+			<div class="col-md-2">
+				<p class="standing">8</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-8" src="images\lady-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-5">
+				<p id="rank-name-8"></p>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-8"></p>
+			</div>
+		</div>
+		
+		<div class="row align-items-center rank rank-odd" >
+			<div class="col-md-2">
+				<p class="standing">9</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-9" src="images\lady-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-5">
+				<p id="rank-name-9"></p>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-9"></p>
+			</div>
+		</div>
+
+		<div class="row align-items-center rank rank-even" >
+			<div class="col-md-2">
+				<p class="standing">10</p>
+			</div>
+			<div class="col-md-2">
+				<img class="rank-pic" id="profile-pic-10" src="images\lady-img.jpg" alt="pic">
+			</div>
+			<div class="col-md-5">
+				<p id="rank-name-10"></p>
+			</div>
+			<div class="col-md-3">
+				<p id="rank-pts-10"></p>
+			</div>
+		</div>
+	
+	</section>
+
+  <!-- Footer -->
+
+	<footer id="footer">	
+		<p class="footer-text">© Copyright 2020 T.O.M. Project Trivia</p>
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>	
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	
+	
+	<!-- Google API Scripts-->
+	<script src="https://apis.google.com/js/api.js"></script>
+	<script src="js/leaderboard.js"></script>
+
+</body>
+
+</html>

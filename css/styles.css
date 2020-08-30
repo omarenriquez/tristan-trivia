@@ -1,0 +1,183 @@
+
+
+
+/* COLOR PALETTE: https://coolors.co/f4f1de-e07a5f-3d405b-81b29a-f2cc8f*/
+
+/* CONTAINTER CARD */
+
+body {
+	font-family: "Red Hat Text";
+}
+
+
+.card {
+    background-color: #3d405b;
+    margin: 5% 25%;
+	margin-bottom: 0px;
+    border-radius: 15px;
+    border: 0;
+    color: white;
+}
+
+/* TITLE */
+
+.title1 {
+	font-family: "Permanent Marker";
+	letter-spacing: 3px;
+    margin: auto 5%;
+	padding: 10px 0px 0px;
+    color: #f4f1de;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.title2 {
+	letter-spacing: 2px;
+    margin: auto 5%;
+	padding: 0px 0px 10px;
+    color: #f4f1de;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+hr {
+	margin: 0;
+}
+
+
+
+/*  RANKING */
+
+
+/*First Place*/
+.rank-first {
+	padding: 15px 0;
+    font-size: 20px;
+    color: white;
+    background-color: #e36414;
+}
+
+.rank-even {
+	padding: 15px 0;
+    font-size: 20px;
+    color: #3D405B;
+    background-color: #dee2e6;
+}
+
+.rank-odd {
+	padding: 15px 0;
+    font-size: 20px;
+    color: #3D405B;
+    background-color: #ced4da;
+}
+
+.rank-pic {
+	width: 65px;
+	border-radius: 50%;
+}
+
+.rank rank-name, rank img {
+	margin: auto 0;
+	text-align: left;
+}
+
+.rank p {
+	margin-bottom: 0;
+}
+
+.standing {
+	text-align: center;
+}
+
+
+
+
+
+
+/*Host Section*/
+
+.host-pic {
+	width: 65px;
+	border-radius: 50%;
+}
+
+.host-info {
+	width: 80%;
+	margin: 15px auto ;
+	padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    background-color: #3d405b;
+	text-align: right;
+	background-color: #313349;
+	border-radius: 100px;
+}
+
+.host-name {
+	text-align: left;
+	margin-bottom: 0;
+}
+
+/************ Footer Section *****************/
+
+#footer {
+	background-color: #3D405B;
+	color: #F4F1DE;
+	margin: 0 25% 0;
+	padding: 3% 0;
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+
+
+
+
+/**************** Mobile Friendly Alterations *****************/
+@media (max-width: 767px) {
+
+	.card {
+		margin: 5% 10%;
+		margin-bottom: 0px;
+		color: white;
+	}
+	
+	#footer {
+		margin: 0 10% 0;
+	}
+	.host-image {
+		position: relative;
+		top: 1%;
+		left: 50%;
+		background-color: red;
+		border-radius: 100px;
+	}
+	
+	.host-info, .host-name  {
+		text-align: center;
+		margin-top: 5px;
+	}
+	.rank-first, .rank-even, .rank-odd {
+		text-align: center;
+	}
+
+	.rank-pic {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 935px) {
+
+	.title {
+		font-size: 25px;
+	}
+
+}
+
